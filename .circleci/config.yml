@@ -10,7 +10,7 @@ jobs:
            git config --global user.name "ernesto	"
            git config --global user.email "eescodm-gmbh.com"
            git config --global color.ui false
-           git clone https://github.com/ernesto-es/scripts2 && cd scripts2 && cd setup && bash setup/android_build_env.sh && cd ..
+           git clone https://github.com/ernesto-es/scripts2 && cd scripts2 && cd setup && bash android_build_env.sh && cd ..
            mkdir predator
            cd predator
            wget https://github.com/ernesto-es/AndroidFirmware/blob/kernel_s21_5g/build_menu
