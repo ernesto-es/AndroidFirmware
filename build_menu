@@ -1,11 +1,8 @@
 #!/bin/bash
 # LIGHTNING-KERNEL-BUILD
-
 # Variables
 DIR="$(pwd)"
-
 PARENT_DIR="$(pwd)"
-
 echo "Cloning dependencies"
 git clone --depth=1 --branch kernel_s21_5g https://github.com/ernesto-es/AndroidFirmware kernel
 cd kernel 
